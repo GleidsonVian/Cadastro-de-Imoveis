@@ -23,12 +23,13 @@ do {
     case "2":
       for (let i = 0; i < imoveis.length; i++) {
         alert(
-          imoveis[i].proprietario +
-            "\n" +
+          "Proprietario: " +
+            imoveis[i].proprietario +
+            "\nQuantidade de Quartos: " +
             imoveis[i].quartos +
-            "\n" +
+            "\nQuantidade de Banheiros: " +
             imoveis[i].banheiro +
-            "\n" +
+            "\nPossui Garagem? " +
             imoveis[i].garagem
         );
       }
